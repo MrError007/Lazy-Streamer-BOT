@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [LazyDeveloper](https://t.me/mRiderDM)",
+                    text="I am Made By [Kʀɪsʜɴᴀ](https://t.me/Krishna00P)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/mRiderDM")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/Krishna00P")
                             ]
                         ]
                     ),
@@ -30,7 +30,7 @@ async def maintainers(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("Subscribe ❤️"))
+@StreamBot.on_message(filters.regex("Join ❤️"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://youtube.com/@LazyDeveloperr")
+                                InlineKeyboardButton("Join ❤️", url=f"https://telegram.me/KTG_Bots_Updates")
                             ]
                         ]
                     ),
